@@ -36,7 +36,7 @@ public class projectSteps {
 
 	    @Then("Enter Email")
 	    public void enter_email() {
-	    	registration.email.sendKeys("abcd456@gmail.com");
+	    	registration.email.sendKeys("abcd457@gmail.com");
 
 	    }
 

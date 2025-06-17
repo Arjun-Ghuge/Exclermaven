@@ -3,15 +3,14 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
   <groups>
-  <run>    
-  <include name="Apple"></include>
-    <include name="moto"></include>
-    
+  <run>
+  <include name="regression"></include>
+    <include name="Smoke"></include>
+
   </run>
-  </groups> 
+  </groups>
     <classes>
-      <class name="testNG.grouping"/>
+      <class name="testNG.GroupTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
-   
